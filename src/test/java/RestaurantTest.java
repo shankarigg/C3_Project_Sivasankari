@@ -80,7 +80,7 @@ class RestaurantTest {
         restaurant.addToMenu("Vegetable lasagne", 269);
         List<Item> menuList = restaurant.getMenu();
 
-        assertEquals(338,restaurant.getOrderAmount(menuList));
+        assertEquals(388,restaurant.getOrderAmount(menuList));
 
 
 

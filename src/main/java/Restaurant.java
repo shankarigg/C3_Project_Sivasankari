@@ -71,4 +71,12 @@ public class Restaurant {
     public String getName() {
         return name;
     }
+
+    public int getOrderAmount(List<Item> menuList) {
+        int price=0;
+        for(Item item: menuList){
+             price = price + item.getPrice();
+        }
+        return price;
+    }
 }
